@@ -1,0 +1,50 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Sans:400,700|Open+Sans:400,700|Roboto:400,700|Source+Sans+Pro:400,700,900&display=swap');
+body{
+  max-width: 900px;
+  background-position: top center;
+  background-color;
+  font-family: "roboto", Helvetica, 'PT Sans', sans-serif, monospace;
+  font-size: 18px;
+  text-decoration: none;
+  color: grey;
+}
+*{
+  box-sizing: border-box;
+}
+.article{
+  background-color: white;
+  text-align: left;
+  width: 800px;
+  height: 600px;
+  position: relative;
+  margin: 30px auto 20px 320px;
+  box-shadow: 2px 2px 8px;
+  padding-top: 5px;
+}
+img{
+  margin-left: 50px;
+}
+a{
+  text-decoration: none;
+}
+p{
+  font-family: "noto sans", Helvetica, 'PT Sans', sans-serif, monospace;
+  font-size: 18px;
+  text-decoration: none;
+  color: grey;
+  line-height: 24px;
+  margin: 25px 50px 30px 50px;
+}
+h4{
+  font-size: 15px;
+  color: grey;
+  margin: 20px auto 25px 50px;
+}
+h2{
+
+  font-weight: 700;
+  font-size: 36px;
+  color: black;
+  margin: 20px auto 23px 50px;
+}

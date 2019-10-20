@@ -12,6 +12,7 @@ body {
   line-height: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  z-index: 9;
 }
 h1 {
   max-width: 700px;
@@ -55,10 +56,54 @@ h4{
   padding-left: 20px;
   margin-left: -20px;
 } */
-ol {
-  max-width: 700px;
-  padding-left: 15px;
-  list-style: decimal;
+nav {
+  background-color: white;
+  opacity: 0.5;
+  color: black;
+  max-width: 500px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 30px;
+  box-shadow: 2px 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  transition: opacity 400ms ease, box-shadow 400ms ease;
+  z-index: 10;
+}
+/* ul > li{
+    margin-left: 40px;
+} */
+nav a {
+text-decoration: none;
+}
+nav ul{
+  width: 300px;
+}
+nav > ul > li > ul > li{
+  margin-left: 50px;
+  color: rgba(0,0,0,0.5);
+}
+nav ul li{
+  margin-bottom: 15px;
+}
+nav ul li ul {
+  margin-top:15px;
+  margin-left: 25px;
+  color: rgba(0,0,0,1);
+}
+nav ul li ul a:hover{
+  color: rgba(0,0,0,0.8);
+}
+nav:hover{
+  opacity: 0.7;
+  box-shadow: 15px 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35);
+}
+li{
+  color: black;
+}
+a{
+  color: grey;
 }
 blockquote{
   max-width: 700px;
@@ -72,7 +117,6 @@ blockquote::before {
   left: -20px;
   width: 2px;
   height: 100%;
-
   background-color: #000;
 }
 blockquote::after {
@@ -92,13 +136,3 @@ img {
 /* p [data="random"]{
   color: red;
 } */
-a{
-  text-decorstion: none;
-}
-a:visited{
-  color: purple;
-text-decoration: underline;
-}
-a:hover{
-  color: pink;
-}

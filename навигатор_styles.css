@@ -1,13 +1,14 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,700|Comfortaa:300,400,700|Montserrat:400,700|Noto+Sans:400,700|Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800|Oswald:300,400,700|PT+Sans|Roboto+Condensed:300,400,700|Roboto+Mono:300,400,700|Roboto:300,400,700,900|Rubik:300,400,700|Source+Sans+Pro:300,400,700|Ubuntu:400,700&display=swap&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap&subset=cyrillic');
 body{
   background-size: 1440px 14580px;
   font-family: "roboto condensed", "open sans Condensed", helvetica, "PT sans", sans-serif, monospace;
   /* margin: 50px 160px 80px 160px; */
   box-sizing: border-box;
 }
-h2{
-  font-size: 60px;
+h1, h2, h3, h4{
+  font-family: "Russo One";
 }
 p{
   font-size: 20px;
@@ -36,26 +37,26 @@ nav{
 }
 
 h1{
-  padding-top: 60px;
+  padding-top: 40px;
   margin-left: 130px;
   margin-bottom: 10px;
-  width: 1000px;
+  width: 1100px;
   color: #FFFF;
   text-align: left;
   weight: 300;
-  font-size: 72px;
-  margin-top: -80px;
+  font-size: 64px;
+  margin-top: -120px;
 
 }
-#firsth2{
+/* #firsth2{
   margin-top: -20px;
-  margin-left: 130px;
+  margin-left: 110px;
   margin-bottom: 0px;
   width: 800px;
   color: #FFFF;
   text-align: left;
   weight: 300;
-}
+} */
 nav p{
   margin-top: 20px;
   color: #FFF;
@@ -102,7 +103,92 @@ nav li:hover{
   width: 350px;
   z-index: 3;
 }
-.card h3{
+.card1, .card2, .card3, .card4{
+  padding-right: 30px;
+}
+/* .card1{
+  position: absolute;
+  background-color: #FFF;
+  margin-left: 80px;
+  margin-top: -530px;
+  width: 272px;
+  height: auto;
+  padding: 20px;
+  z-index: 3;
+} */
+#pokrovka, .card1 h3, .card1 img{
+  position: absolute;
+  background-color: #FFF;
+  margin-left: 30px;
+  margin-top: -530px;
+  width: 272px;
+  padding: 220px 20px 30px 20px;
+  z-index: 2;
+  box-shadow: 2 2 8px rgba(0,0,0,1);
+  transition: transform 400ms ease;;
+}
+.card1 p:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.card1 h3{
+  padding: 20px;
+  z-index: 3;
+}
+.card1 img{
+    padding: 20px;
+    z-index: 3;
+  }
+
+  #studlife, .card2 h3, .card2 img{
+    position: absolute;
+    background-color: #FFF;
+    margin-left: 390px;
+    margin-top: -530px;
+    width: 272px;
+    padding: 220px 20px 30px 20px;
+    z-index: 2;
+    box-shadow: 2 2 8px rgba(0,0,0,1);
+    transition: transform 400ms ease;;
+  }
+  .card2 p:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+  .card2 h3{
+    padding: 20px;
+    z-index: 3;
+  }
+  .card2 img{
+      padding: 20px;
+      z-index: 3;
+    }
+
+    #sosvyat, .card3 h3, .card3 img{
+      position: absolute;
+      background-color: #FFF;
+      margin-left: 750px;
+      margin-top: -530px;
+      width: 272px;
+      padding: 220px 20px 30px 20px;
+      z-index: 2;
+      box-shadow: 2 2 8px rgba(0,0,0,1);
+      transition: transform 400ms ease;;
+    }
+    .card3 p:hover{
+      cursor: pointer;
+      transform: scale(1.03);
+    }
+    .card3 h3{
+      padding: 20px;
+      z-index: 3;
+    }
+    .card3 img{
+        padding: 20px;
+        z-index: 3;
+      }
+
+.card4 h3{
   position: absolute;
   background-color: #FFF;
   margin-left: 1100px;
@@ -123,7 +209,7 @@ nav li:hover{
   box-shadow: 2 2 8px rgba(0,0,0,1);
   transition: transform 400ms ease;;
 }
-#gallery:hover{
+.card4 p:hover{
   cursor: pointer;
   transform: scale(1.03);
 }
@@ -136,6 +222,32 @@ nav li:hover{
     padding: 20px;
     z-index: 3;
   }
+
+  /* #orgsobr, .card5 h3, .card5 img{
+    position: absolute;
+    background-color: #FFF;
+    margin-left: 1440px;
+    margin-top: -530px;
+    width: 272px;
+    padding: 220px 20px 30px 20px;
+    z-index: 2;
+    box-shadow: 2 2 8px rgba(0,0,0,1);
+    transition: transform 400ms ease;;
+  }
+  .card5 p:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+  .card5 h3{
+    padding: 20px;
+    z-index: 3;
+  }
+  .card5 img{
+      padding: 20px;
+      z-index: 3;
+    } */
+
+
   .trans + h2{
     position: absolute;
     color: #c42222;
@@ -299,7 +411,7 @@ line-height: 40px;
 .row3 p{
   color: #fff;
   height: 240px;
-  width: 500px;
+  width: 260px;
 }
 .row3 img{
   display: flex;
@@ -307,10 +419,25 @@ line-height: 40px;
   padding: 20px;
 
 }
-.row3 img:first-child{
-  margin-top: 300px;
+.row3 p + img{
+  padding-top: 0px;
+}
+.row4 img{
+width: 200px;
+margin-top: -160px;
+margin-left: 75px;
+
+}
+.row4 img:last-child{
+width: 200px;
+margin-top: -50px;
+margin-left: 30px;
+
 }
 .row{
   padding-top:0px;
   padding-bottom: 0px;
+}
+.use h2{
+  text-orientation: sideways;
 }

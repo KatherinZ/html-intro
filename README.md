@@ -1,4 +1,5 @@
-# survival https://github.com/KatherinZ/survival/raw/master/survival_manual_files/pokrovka.png
-# survival https://github.com/KatherinZ/survival/raw/master/survival_manual_files/sosvyat.png
-# survival https://github.com/KatherinZ/survival/raw/master/survival_manual_files/gallery copy.png
-# survival https://github.com/KatherinZ/survival/raw/master/survival_manual_files/hseday.png
+# survival https://github.com/KatherinZ/survival/raw/master/manual_images/pokrovka.png
+# survival https://github.com/KatherinZ/survival/raw/master/manual_images/sosvyat.png
+# survival https://github.com/KatherinZ/survival/raw/master/manual_images/gallery.png
+# survival https://github.com/KatherinZ/survival/raw/master/manual_images/hseday.png
+# survival https://github.com/KatherinZ/survival/raw/master/manual_images/roof1.jpg

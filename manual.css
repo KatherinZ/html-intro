@@ -135,30 +135,30 @@ nav ul li:hover{
   .card2 img{
       padding: 20px;
       z-index: 3;
-    }
+}
 
-    #sosvyat, .card3 h3, .card3 img{
-      position: absolute;
-      background-color: #FFF;
-      margin-left: 740px;
-      margin-top: -530px;
-      width: 275px;
-      padding: 220px 20px 30px 20px;
-      z-index: 2;
-      transition: transform 400ms ease;;
-    }
-    .card3 p:hover{
-      cursor: pointer;
-      transform: scale(1.03);
-    }
-    .card3 h3{
+  #sosvyat, .card3 h3, .card3 img{
+    position: absolute;
+    background-color: #FFF;
+    margin-left: 740px;
+    margin-top: -530px;
+    width: 275px;
+    padding: 220px 20px 30px 20px;
+    z-index: 2;
+    transition: transform 400ms ease;;
+  }
+  .card3 p:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+  .card3 h3{
+    padding: 20px;
+    z-index: 3;
+  }
+  .card3 img{
       padding: 20px;
       z-index: 3;
     }
-    .card3 img{
-        padding: 20px;
-        z-index: 3;
-      }
 
 .card4 h3{
   position: absolute;
@@ -317,6 +317,7 @@ padding-left: 20px;
 .advice3 h2, h4{
   display: inline-block;
 }
+
 
 .advice3 + h3{
   color: #c42222;
